@@ -23,16 +23,21 @@ First step is determining which column is the target. Since this model is intend
 
 Next, determine which columns to drop, as they aren't beneficial to model. Having variables that do not add value, can lead to overfitting. Columns "EIN" and "NAME" will be dropped.
 
-![image](removed columns)
+![image](https://github.com/roderickspells/Neural_Network_Charity_Analysis/blob/main/Challenge/Images/droppedColumns.png)
 
-Last step would be to determine which columns are the features then the data will be split into features and targets using the (y value) "IS_Successful"
+Last step would be to determine which columns are the features then the data will be split into features (X value) and targets (y value) using the "IS_Successful"
 
-![image](categorical variables)
-![image}(successful)
+![image](https://github.com/roderickspells/Neural_Network_Charity_Analysis/blob/main/Challenge/Images/features.png)
+![image[(https://github.com/roderickspells/Neural_Network_Charity_Analysis/blob/main/Challenge/Images/successful.png)
 
 
 ### Compiling, Training, and Evaluating the Model
 
 ### Optimizing 
+
+During the optimization phase, different models were utilized and evaluated in order to achieve an accuracy rate of 75%. This was done by:
+- using varying hidden layers
+- using different levels of epochs
+- dropping and/or combining different variables to see which have a greater influence on the model
 
 ## Summary
