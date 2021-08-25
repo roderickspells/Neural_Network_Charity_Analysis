@@ -28,13 +28,14 @@ Next, determine which columns to drop, as they aren't beneficial to model. Havin
 Last step would be to determine which columns are the features then the data will be split into features (X value) and targets (y value) using the "IS_Successful"
 
 ![image](https://github.com/roderickspells/Neural_Network_Charity_Analysis/blob/main/Challenge/Images/features.png)
-![image[(https://github.com/roderickspells/Neural_Network_Charity_Analysis/blob/main/Challenge/Images/successful.png)
+![image](https://github.com/roderickspells/Neural_Network_Charity_Analysis/blob/main/Challenge/Images/successful.png)
 
 
 ### Compiling, Training, and Evaluating the Model
 This phase consisted of customizing the neural network to calculate data inputs and extract and output. The model was defined with 2 hidden layers utilizing the Rectified Linear Unit (ReLU) function, with 80 and 30 neurons respectively and the output layer utilized the Sigmoid function. This lead to an accuracy rate of 72%.
 
 - Defined Model
+
 ![image](https://github.com/roderickspells/Neural_Network_Charity_Analysis/blob/main/Challenge/Images/DefineModel.png)
 
 - Compiled, Trained and Evaluated Model
@@ -42,6 +43,7 @@ This phase consisted of customizing the neural network to calculate data inputs 
 ![image](https://github.com/roderickspells/Neural_Network_Charity_Analysis/blob/main/Challenge/Images/compileTrainEvaluate.png)
 
 - Model Accuracy
+
 ![image](https://github.com/roderickspells/Neural_Network_Charity_Analysis/blob/main/Challenge/Images/InitialAccuracy.png)
 
 ### Optimizing 
